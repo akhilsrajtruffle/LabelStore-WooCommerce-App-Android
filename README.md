@@ -11,9 +11,8 @@
 
 Our template supports the latest WooCommerce (2.6+) Android Label Store is a WooCommerce App, built exclusively for your store to integrate with, setup only takes less than 3 minutes!
 
-1. Free to use
-2. Supports the latest Woocommerce (2.6+)
-3. [Documentation available](https://woosignal.com/docs/android/label-store)
+1. Supports the latest Woocommerce (2.6+)
+2. [Documentation available](https://woosignal.com/docs/android/label-store)
 
 ![alt text](https://woosignal.com/images/labelstore_demo_android.gif "Woocommerce App Screenshot")
 
