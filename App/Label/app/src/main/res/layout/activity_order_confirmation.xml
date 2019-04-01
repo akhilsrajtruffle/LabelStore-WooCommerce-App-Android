@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <View
+                android:id="@+id/view12"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:background="@color/lightGrey"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/amsi_pro_bold"
+                android:gravity="center"
+                android:text="@string/order_confirmation"
+                android:textColor="@color/darkGrey"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.65">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:orientation="horizontal"
+                            tools:layout_editor_absoluteX="16dp"
+                            tools:layout_editor_absoluteY="98dp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical"
+                                tools:layout_editor_absoluteX="24dp"
+                                tools:layout_editor_absoluteY="188dp">
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3"
+                                    android:fontFamily="@font/amsi_pro_bold"
+                                    android:gravity="center_vertical"
+                                    android:text="@string/first_name"
+                                    android:textColor="@color/darkGrey"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="24dp"
+                                    tools:layout_editor_absoluteY="98dp" />
+
+                                <EditText
+                                    android:id="@+id/etFirstName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.7"
+                                    android:ems="10"
+                                    android:fontFamily="@font/amsi_pro_semi_bold"
+                                    android:hint="..."
+                                    android:inputType="textCapWords|textPersonName"
+                                    android:textColor="@color/darkGrey"
+                                    tools:layout_editor_absoluteX="24dp"
+                                    tools:layout_editor_absoluteY="120dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView17"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3"
+                                    android:fontFamily="@font/amsi_pro_bold"
+                                    android:gravity="center_vertical"
+                                    android:text="@string/last_name"
+                                    android:textColor="@color/darkGrey"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="239dp"
+                                    tools:layout_editor_absoluteY="278dp" />
+
+                                <EditText
+                                    android:id="@+id/etLastName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.7"
+                                    android:ems="10"
+                                    android:fontFamily="@font/amsi_pro_semi_bold"
+                                    android:hint="..."
+                                    android:inputType="textCapWords|textPersonName"
+                                    android:textColor="@color/darkGrey"
+                                    tools:layout_editor_absoluteX="16dp"
+                                    tools:layout_editor_absoluteY="300dp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:orientation="horizontal"
+                            tools:layout_editor_absoluteX="16dp"
+                            tools:layout_editor_absoluteY="98dp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3"
+                                    android:fontFamily="@font/amsi_pro_bold"
+                                    android:gravity="center_vertical"
+                                    android:text="@string/phone_number"
+                                    android:textColor="@color/darkGrey"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="48dp"
+                                    tools:layout_editor_absoluteY="440dp" />
+
+                                <EditText
+                                    android:id="@+id/etPhoneNumber"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.7"
+                                    android:ems="10"
+                                    android:fontFamily="@font/amsi_pro_semi_bold"
+                                    android:inputType="phone"
+                                    android:textColor="@color/darkGrey"
+                                    tools:layout_editor_absoluteX="48dp"
+                                    tools:layout_editor_absoluteY="466dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.5"
+                                android:orientation="vertical"
+                                tools:layout_editor_absoluteX="24dp"
+                                tools:layout_editor_absoluteY="188dp">
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.3"
+                                    android:fontFamily="@font/amsi_pro_bold"
+                                    android:gravity="center_vertical"
+                                    android:text="@string/email_address"
+                                    android:textColor="@color/darkGrey"
+                                    android:textStyle="bold"
+                                    tools:layout_editor_absoluteX="239dp"
+                                    tools:layout_editor_absoluteY="440dp" />
+
+                                <EditText
+                                    android:id="@+id/etEmailAddress"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.7"
+                                    android:ems="10"
+                                    android:fontFamily="@font/amsi_pro_semi_bold"
+                                    android:hint="..."
+                                    android:inputType="textWebEmailAddress"
+                                    android:textColor="@color/darkGrey"
+                                    tools:layout_editor_absoluteX="239dp"
+                                    tools:layout_editor_absoluteY="466dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.35">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="20dp"
+                        android:layout_height="80dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginTop="8dp"
+                        android:scaleType="fitCenter"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/right_arrow_1" />
+
+                    <TextView
+                        android:id="@+id/tvShippingAddress"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="2dp"
+                        android:autoSizeMaxTextSize="16dp"
+                        android:autoSizeMinTextSize="12dp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/amsi_pro_semi_bold"
+                        android:textColor="@color/darkGrey"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@+id/imageView12"
+                        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="0dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:fontFamily="@font/amsi_pro_bold"
+                        android:gravity="center_vertical"
+                        android:text="Shipping Address"
+                        android:textColor="@color/darkGrey"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/btnShippingAddress"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@android:color/transparent"
+                        android:onClick="shippingAddressTapped"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:background="#fbfbfb"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/iv_payment_method"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline30"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/visa" />
+
+            <TextView
+                android:id="@+id/tvPaymentMethodTitle"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/amsi_pro_bold"
+                android:gravity="left|center_horizontal|center"
+                android:text="Select payment method"
+                android:textAlignment="textStart"
+                android:textColor="@color/darkGrey"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/guideline29"
+                app:layout_constraintEnd_toStartOf="@+id/guideline30"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="277dp"
+                android:layout_height="40dp"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="777dp">
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tvChoosePaymentMethod"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/amsi_pro_bold"
+                android:gravity="center_vertical"
+                android:text="@string/choose"
+                android:textAlignment="textStart"
+                android:textColor="#8C557F"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline30"
+                app:layout_constraintStart_toStartOf="@+id/tvPaymentMethodTitle"
+                app:layout_constraintTop_toTopOf="@+id/guideline29" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.65" />
+
+            <Button
+                android:id="@+id/btnSelectPaymentMethod"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33">
+
+                    <Switch
+                        android:id="@+id/switchRememberDetails"
+                        android:layout_width="88dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:checked="true"
+                        android:gravity="left|center"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="@+id/textView23"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="120dp"
+                        android:layout_height="17dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/amsi_pro_semi_bold"
+                        android:text="@string/remember_details"
+                        android:textColor="@color/darkGrey"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/switchRememberDetails" />
+
+                    <TextView
+                        android:id="@+id/tvSelectShippingText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="@font/amsi_pro_semi_bold"
+                        android:gravity="right|center"
+                        android:text="@string/select_shipping"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView23"
+                        app:layout_constraintTop_toTopOf="@+id/switchRememberDetails" />
+
+                    <TextView
+                        android:id="@+id/tvChangeShippingMethod"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/amsi_pro_bold"
+                        android:gravity="right|center"
+                        android:text="@string/choose"
+                        android:textColor="#8C557F"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/tvSelectShippingText"
+                        app:layout_constraintStart_toStartOf="@+id/tvSelectShippingText"
+                        app:layout_constraintTop_toBottomOf="@+id/tvSelectShippingText" />
+
+                    <Button
+                        android:id="@+id/btnSelectShipping"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@android:color/transparent"
+                        android:textColor="@android:color/transparent"
+                        app:layout_constraintBottom_toBottomOf="@+id/tvChangeShippingMethod"
+                        app:layout_constraintEnd_toEndOf="@+id/tvSelectShippingText"
+                        app:layout_constraintStart_toStartOf="@+id/tvSelectShippingText"
+                        app:layout_constraintTop_toTopOf="@+id/tvSelectShippingText" />
+
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33"
+                    android:background="@color/lightGrey">
+
+                    <View
+                        android:id="@+id/view7"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent" />
+
+                    <View
+                        android:id="@+id/view11"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="135dp"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center_horizontal|center"
+                        android:text="@string/cart_total"
+                        android:textColor="#149092"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView5"
+                        app:layout_constraintTop_toTopOf="@+id/textView5">
+
+                        <TextView
+                            android:id="@+id/tvSubtotal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.25"
+                            android:fontFamily="@font/amsi_pro_semi_bold"
+                            android:gravity="right|center_horizontal"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/tvShippingOption"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.25"
+                            android:fontFamily="@font/amsi_pro_semi_bold"
+                            android:gravity="right|center_horizontal"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/tvTax"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.25"
+                            android:fontFamily="@font/amsi_pro_semi_bold"
+                            android:gravity="center_horizontal"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/tvOrderTotal"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.25"
+                            android:fontFamily="@font/amsi_pro_semi_bold"
+                            android:gravity="right|center_horizontal"
+                            android:textAlignment="textEnd"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="13sp"
+                            tools:layout_editor_absoluteX="237dp"
+                            tools:layout_editor_absoluteY="28dp" />
+                    </LinearLayout>
+
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.33">
+
+                    <Button
+                        android:id="@+id/btnContinueToPayment"
+                        android:layout_width="0dp"
+                        android:layout_height="51dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/button_corner_radius"
+                        android:onClick="onBuyPressed"
+                        android:text="@string/continue_to_payment_caps"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mavsoft.label">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:name="com.mavsoft.label.Utils.LabelApplication">
+
+
+        <activity android:name=".ActivityHome"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityProductFashionDetail"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivityStripeCardInput"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivityAccount"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivityAccountGettingStarted"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivityAccountOnboardingFinish"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivityAccountDetail"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivitySignIn"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivitySignUp"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivitySettings"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ActivityProductDetail"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityOrderConfirmed"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityOrderConfirmation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityMenu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityCart"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityAbout"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityAddShippingAddress"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivitySearch"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityOrders"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ActivityBrowse"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

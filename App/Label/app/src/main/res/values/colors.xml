@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkGrey">#333333</color>
+    <color name="lightGrey">#f2f2f2</color>
+    <color name="labelGreen">#149092</color>
+    <color name="colorLabelSeparator">#efefef</color>
+    <color name="labelSearch">#89c2fa</color>
+    <color name="labelPayButtonPrimary">#265de3</color>
+</resources>
