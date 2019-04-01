@@ -13,7 +13,7 @@ Our template supports the latest WooCommerce (2.6+) Android Label Store is a Woo
 
 1. Free to use
 2. Supports the latest Woocommerce (2.6+)
-3. [Documentenation available](https://woosignal.com/docs/android/label-store)
+3. [Documentation available](https://woosignal.com/docs/android/label-store)
 
 ![alt text](https://woosignal.com/images/labelstore_demo_android.gif "Woocommerce App Screenshot")
 

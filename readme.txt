@@ -16,7 +16,7 @@ support@woosignal.com
 
 * DOCUMENTATION *
 
-https://woosignal.com/documentation/android/label-store
+https://woosignal.com/docs/android/label-store
 
 * CHANGE LOG *
 
